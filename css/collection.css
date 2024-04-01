@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* 메인 */
+main {
+  width: 100%;
+  background-color: black;
+  padding: 50px;
+}
+main .Pc_Main .main_img1 {
+  width: 60%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 50px auto;
+}
+main .Pc_Main .main_img1 h2 {
+  margin: 20px 0;
+  font-weight: 500;
+}
+main .Pc_Main .main_img1 p {
+  font-size: 10px;
+  font-weight: 300;
+}
+main .Pc_Main .main_img1 a {
+  background-color: white;
+  width: 100px;
+  height: 30px;
+  margin: 10px auto;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .Pc_Main .main_img1 a p {
+  font-size: 13px;
+  font-weight: bold;
+}
+main .M_Main #first_text {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+main .M_Main .main_img2 {
+  width: 80%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px auto 0 auto;
+}
+main .M_Main .main_img2 h2 {
+  margin: 20px 0;
+  font-weight: 500;
+}
+main .M_Main .main_img2 p {
+  font-size: 10px;
+  font-weight: 300;
+}
+main .M_Main .main_img2 a {
+  background-color: white;
+  width: 100px;
+  height: 30px;
+  margin: 10px auto;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .M_Main .main_img2 a p {
+  font-size: 13px;
+  font-weight: bold;
+}
+main .M_Main .main_img2 .imgFull {
+  display: none;
+}
+main .M_Main .main_img2 .imgFull.active {
+  display: block;
+}
+
+@media screen and (max-width: 760px) {
+  .Mheader {
+    background-color: black;
+  }
+  .Pc_Main {
+    display: none;
+  }
+}
+@media screen and (min-width: 761px) {
+  .M_Main {
+    display: none;
+  }
+}

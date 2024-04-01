@@ -1,0 +1,113 @@
+/* 헤더 */
+
+
+/* 메인 */
+
+main {
+    width: 100%;
+
+
+
+    .MainImg1 {
+        width: 100%;
+        margin-bottom: 100px;
+
+    }
+
+    .MainImg1_1 {
+        width: 100%;
+        display: none;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+
+    .MainImg2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin: 0 auto 40px auto;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            margin-left: 10px;
+
+            img {
+                width: 100%;
+                margin-bottom: 10px;
+                // transform-origin: 50% 50%;
+                // transition: 2s;
+            }
+            // img:hover{
+            //     transform: scale(0.1);
+            // }
+        }
+    }
+}
+
+
+@media screen and (max-width: 760px) {
+    .PCheader {
+        display: none;
+    }
+
+    .Mheader {
+        display: block;
+    }
+
+    .MainImg1 {
+        display: none !important;
+    }
+
+    .MainImg1_1 {
+        display: block !important;
+    }
+
+    .MainImg2 {
+        display: none !important;
+    }
+
+    .h2Text {
+        display: none !important;
+    }
+
+    .PCfooter {
+        display: none !important;
+    }
+
+    .footer2 {
+        display: none !important;
+    }
+
+
+
+}
+
+@media screen and (min-width: 761px) {
+    .PCheader {
+        display: block;
+    }
+
+    .Mheader {
+        display: none !important;
+    }
+
+    .Mfooter {
+        display: none !important;
+    }
+
+
+
+}
+
+@media screen and (max-width: 760px) {
+    .menu_icon {
+        display: block !important;
+    }
+
+}

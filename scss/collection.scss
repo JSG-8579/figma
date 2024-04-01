@@ -1,0 +1,124 @@
+/* 메인 */
+
+main {
+    width: 100%;
+    background-color: black;
+    padding: 50px;
+
+
+    .Pc_Main {
+        .main_img1 {
+            width: 60%;
+            color: white;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            margin: 50px auto;
+
+            h2 {
+                margin: 20px 0;
+                font-weight: 500;
+
+            }
+
+            p {
+                font-size: 10px;
+                font-weight: 300;
+            }
+
+            a {
+                background-color: white;
+                width: 100px;
+                height: 30px;
+                margin: 10px auto;
+                border-radius: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                p {
+                    font-size: 13px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .M_Main {
+        #first_text {
+            color: white;
+            font-size: 40px;
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight: 300;
+
+        }
+
+        .main_img2 {
+            width: 80%;
+            color: white;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            margin: 20px auto 0 auto;
+
+            h2 {
+                margin: 20px 0;
+                font-weight: 500;
+
+            }
+
+            p {
+                font-size: 10px;
+                font-weight: 300;
+            }
+
+            a {
+                background-color: white;
+                width: 100px;
+                height: 30px;
+                margin: 10px auto;
+                border-radius: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                p {
+                    font-size: 13px;
+                    font-weight: bold;
+                }
+            }
+
+            .imgFull {
+                display: none;
+
+
+                &.active {
+
+                    display: block;
+
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .Mheader {
+        background-color: black;
+    }
+
+    .Pc_Main {
+        display: none;
+    }
+
+
+}
+
+@media screen and (min-width: 761px) {
+    .M_Main {
+        display: none;
+    }
+}
